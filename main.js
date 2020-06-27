@@ -15,10 +15,17 @@ while (counter1 <= limit) {
     counter1 += 1
 }
 
+let kata1 = document.createElement('h1')
+mainElement.append(kata1)
+kata1.append('kata1')
 
 for (let counter1 = 1; counter1 <= limit; counter1 += 1) {
     console.log(counter1)
+    let newElement = document.createElement('div')
+    newElement.append([counter1]);
+    mainElement.append(newElement)
 }
+
 
 /** KATA 02 ⮕
 ***
@@ -35,8 +42,15 @@ while (counter2 <= limit) {
         console.log(counter2)
     counter2 += 1
 }
+let kata2 = document.createElement('h1')
+mainElement.append(kata2)
+kata2.append('kata2')
+
 
 for (let counter2 = 2; counter2 <= limit; counter2 += 2) {
+    let newElement2 = document.createElement('div')
+    newElement2.append([counter2])
+    mainElement.append(newElement2)
 
 }
 
@@ -57,6 +71,10 @@ while (counter3 <= 20) {
     counter3 += 2
 }
 
+kata3 = document.createElement('h1')
+mainElement.append(kata3)
+kata3.append('kata3')
+
 
 /** KATA 04 ⮕
 ***
@@ -72,13 +90,20 @@ while (counter4 <= 100) {
     console.log(counter4)
     counter4 += 5
 }
+let kata4 = document.createElement('h1')
+mainElement.append(kata4)
+kata4.append('kata4')
+
 
 for (let counter4 = 5; counter4 <= 100; counter4 += 4) {
     console.log(counter4);
+    let newElement4 = document.createElement('div')
+    newElement4.append([counter4])
+    mainElement.append(newElement4)
 
 }
 
-/** KATA 05 ⮕
+/** KATA 05 ⮕  
 ***
 *** Log all numbers up to 100 that are perfect squares. (1, 4, 9, ..., 81, 100)
 ***
@@ -97,6 +122,9 @@ while (counter5 <= 100) {
 
 
 }
+kata5 = document.createElement('h1')
+mainElement.append(kata5)
+kata5.append('kata5')
 
 
 /** KATA 06 ⮕
@@ -113,9 +141,16 @@ while (counter6 >= 1) {
     console.log(counter6)
     counter6 -= 1
 }
+let kata6 = document.createElement('h1')
+mainElement.append(kata6)
+kata6.append('kata6')
+
 
 for (let counter6 = 20; counter6 >= 1; counter6 -= 1) {
     console.log(counter6);
+    let newElement6 = document.createElement('div')
+    newElement6.append([counter6])
+    mainElement.append(newElement6)
 
 }
 
@@ -133,6 +168,9 @@ while (counter7 > 0) {
     console.log(counter7)
     counter7 -= 2
 }
+kata7 = document.createElement('h1')
+mainElement.append(kata7)
+kata7.append('kata7')
 
 
 
@@ -150,6 +188,9 @@ while (counter8 >= 1) {
     console.log(counter8)
     counter8 -= 2
 }
+kata8 = document.createElement('h1')
+mainElement.append(kata8)
+kata8.append('kata8')
 
 /** KATA 09 ⮕
 ***
@@ -165,6 +206,9 @@ while (counter9 >= 100) {
     console.log(counter9)
     counter9 -= 5
 }
+kata9 = document.createElement('h1')
+mainElement.append(kata9)
+kata9.append('kata9')
 
 /** KATA 10 ⮕
 ***
@@ -182,6 +226,10 @@ while (counter10 >= 0) {
     }
     counter10 -= (1)
 }
+
+kata10 = document.createElement('h1')
+mainElement.append(kata10)
+kata10.append('kata10')
 
 
 // KATA 11
