@@ -64,16 +64,22 @@ for (let counter2 = 2; counter2 <= limit; counter2 += 2) {
 
 console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-
 let counter3 = 1
+
+let kata3 = document.createElement('h1')
+const newElement3 = document.createElement('div')
+mainElement.append(kata3)
+mainElement.append(newElement3)
+kata3.append('kata3')
+
+
 while (counter3 <= 20) {
+    newElement3.append([counter3 + ', '])
     console.log(counter3)
     counter3 += 2
+
 }
 
-kata3 = document.createElement('h1')
-mainElement.append(kata3)
-kata3.append('kata3')
 
 
 /** KATA 04 ⮕
@@ -84,24 +90,20 @@ kata3.append('kata3')
 
 console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-
 let counter4 = 5
+
+let kata4 = document.createElement('h1')
+let newElement4 = document.createElement('div')
+mainElement.append(kata4)
+mainElement.append(newElement4)
+kata4.append('kata4')
+
 while (counter4 <= 100) {
+    newElement4.append([counter4 + ', '])
     console.log(counter4)
     counter4 += 5
 }
-let kata4 = document.createElement('h1')
-mainElement.append(kata4)
-kata4.append('kata4')
 
-
-for (let counter4 = 5; counter4 <= 100; counter4 += 4) {
-    console.log(counter4);
-    let newElement4 = document.createElement('div')
-    newElement4.append([counter4])
-    mainElement.append(newElement4)
-
-}
 
 /** KATA 05 ⮕  
 ***
@@ -111,20 +113,25 @@ for (let counter4 = 5; counter4 <= 100; counter4 += 4) {
 
 console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-
 let counter5 = 1
+
+let kata5 = document.createElement('h1')
+const newElement5 = document.createElement('div')
+mainElement.append(kata5)
+mainElement.append(newElement5)
+kata5.append('kata5')
+
 while (counter5 <= 100) {
     const counterSquare = Number.isInteger(Math.sqrt(counter5));
     if (counterSquare) {
+        newElement5.append([counter5 + ', '])
         console.log(counter5)
     }
     counter5 += 1
 
 
 }
-kata5 = document.createElement('h1')
-mainElement.append(kata5)
-kata5.append('kata5')
+
 
 
 /** KATA 06 ⮕
@@ -162,15 +169,21 @@ for (let counter6 = 20; counter6 >= 1; counter6 -= 1) {
 
 console.log('%cKATA 07 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-
 let counter7 = 20
+
+let kata7 = document.createElement('h1')
+const newElement7 = document.createElement('div')
+mainElement.append(kata7)
+mainElement.append(newElement7)
+kata7.append('kata7')
+
 while (counter7 > 0) {
+    newElement7.append([counter7 + ', '])
     console.log(counter7)
     counter7 -= 2
 }
-kata7 = document.createElement('h1')
-mainElement.append(kata7)
-kata7.append('kata7')
+
+
 
 
 
@@ -182,15 +195,20 @@ kata7.append('kata7')
 
 console.log('%cKATA 08 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-
 let counter8 = 20
+
+let kata8 = document.createElement('h1')
+const newElement8 = document.createElement('div')
+mainElement.append(kata8)
+mainElement.append(newElement8)
+kata8.append('kata8')
+
 while (counter8 >= 1) {
+    newElement8.append([counter8 + ', '])
     console.log(counter8)
     counter8 -= 2
 }
-kata8 = document.createElement('h1')
-mainElement.append(kata8)
-kata8.append('kata8')
+
 
 /** KATA 09 ⮕
 ***
@@ -200,15 +218,20 @@ kata8.append('kata8')
 
 console.log('%cKATA 09 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
+let counter9 = 100
 
-let counter9 = 10
-while (counter9 >= 100) {
+let kata9 = document.createElement('h1')
+const newElement9 = document.createElement('div')
+mainElement.append(kata9)
+mainElement.append(newElement9)
+kata9.append('kata9')
+
+while (counter9 >= 5) {
+    newElement9.append([counter9 + ', '])
     console.log(counter9)
     counter9 -= 5
 }
-kata9 = document.createElement('h1')
-mainElement.append(kata9)
-kata9.append('kata9')
+
 
 /** KATA 10 ⮕
 ***
@@ -219,17 +242,25 @@ kata9.append('kata9')
 console.log('%cKATA 10 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
 let counter10 = 100
+
+let kata10 = document.createElement('h1')
+const newElement = document.createElement('div')
+mainElement.append(kata10)
+mainElement.append(newElement)
+kata10.append('kata10')
+
+
+
 while (counter10 >= 0) {
     const isSquare = Number.isInteger(Math.sqrt(counter10))
     if (isSquare) {
+        newElement.append([counter10 + ', '])
         console.log(counter10)
     }
     counter10 -= (1)
+    
 }
 
-kata10 = document.createElement('h1')
-mainElement.append(kata10)
-kata10.append('kata10')
 
 
 // KATA 11
