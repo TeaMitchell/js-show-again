@@ -275,7 +275,7 @@ let kata11 = document.createElement('h1')
 mainElement.append(kata11)
 kata11.append('kata11')
 
-for (let index = 0; index <= sampleArray.length; index += 1) {
+for (let index = 0; index < sampleArray.length; index += 1) {
     const newElement = document.createElement('div')
     newElement.append(sampleArray[index]);
     mainElement.append(newElement)
@@ -322,7 +322,7 @@ mainElement.append(kata14)
 kata14.append('kata14')
 
 for (let index = 0; index < sampleArray.length; index += 1) {
-    square = Math.sqrt(sampleArray[index])
+    square = sampleArray[index] * sampleArray[index]
     let squElement = document.createElement('div')
     squElement.append(square)
     mainElement.append(squElement)
@@ -336,12 +336,14 @@ let kata15 = document.createElement('h1')
 mainElement.append(kata15)
 kata15.append('kata15')
 
+let sum15 = 0
 for (let index = 0; index <= 20; index += 1) {
-    let newElement1 = document.createElement('div')
-    newElement1.append(index);
-    mainElement.append(newElement1)
+    sum15 += index
 }
 
+let newElement1 = document.createElement('div')
+newElement1.append(sum15);
+mainElement.append(newElement1)
 // KATA16
 // Display the sum of all the elements in sampleArray.
 let kata16 = document.createElement('h1')
